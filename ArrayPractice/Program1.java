@@ -9,10 +9,18 @@
 package ArrayPractice;
 
 public class Program1 {
+     // create array to store 10 20 & 30 
+    // print data 
     public static void main(String[] args) {
-        int size =5;
-        int [] array ={5,8,7,9,6,10};
-        int [] array2;
-        int [] arr = new int[size];
+        // create & initialize array 
+        int[] a = { 10 , 20 , 30 } ; 
+        // print array ref 
+        System.out.println( a );
+        // use loop 
+        // initialzation  ----> index 
+        // condition to stop --> index == length stop 
+        //                        index < length continue 
+        for( int index = 0 ; index < a.length ; index++ )
+            System.out.println(a[index]);        
     }
 }
