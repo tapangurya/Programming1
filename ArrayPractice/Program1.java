@@ -9,5 +9,10 @@
 package ArrayPractice;
 
 public class Program1 {
-    
+    public static void main(String[] args) {
+        int size =5;
+        int [] array ={5,8,7,9,6,10};
+        int [] array2;
+        int [] arr = new int[size];
+    }
 }
